@@ -15,6 +15,8 @@
 	--fonte-titulo: "Sofia Sans", sans-serif;
 	--fonte-texto: "Sofia Sans Condesed", sans-serif;
 	--fonte-destaque: "Oswald", sans-serif;
+    --fonte-especial: "Sofia", sans-serif;
+    --fonte-size-320-425px: clamp(1rem, calc(0.94rem + 0.31vw), 1.125rem);
 	/* Variáveis util */
 	--margin-secoes: 1.875rem; /* 30px */
 	--margin-principal: 0.5rem; /* 8px */
@@ -29,6 +31,7 @@ html {
 	font-size: 100%;
 }
 body {
+	background-color: var(--cor-fundo);
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
