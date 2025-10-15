@@ -189,3 +189,17 @@ main {
         }
 	}
 }
+
+.sobre {
+    margin-bottom: var(--margin-secoes);
+
+    h2 {
+        font-family: var(--fonte-titulo);
+        font-size: var(--fonte-size-titulo);
+        margin-bottom: var(--margin-secundario);
+    }
+
+    p {
+        margin: 0;
+    }
+}
