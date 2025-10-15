@@ -21,6 +21,7 @@
 	/* Variáveis util */
 	--margin-secoes: 1.875rem; /* 30px */
 	--margin-principal: 0.5rem; /* 8px */
+    --margin-secundario: 0.625rem; /* 10px */
 	--sombra: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 * {
