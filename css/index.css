@@ -105,8 +105,9 @@ main {
         .cardapio-pizza-info {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             gap: 0.25rem;
-            text-align: start;
+            text-align: justify;
 
             h3 {
                 display: flex;
@@ -121,6 +122,10 @@ main {
                     border-radius: 8px;
                     padding: 0.25rem;
                 }
+            }
+
+            p {
+                margin: 0;
             }
         }
 
