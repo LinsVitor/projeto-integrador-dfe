@@ -7,6 +7,10 @@
 			href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+			rel="stylesheet"
+		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -27,12 +31,12 @@
 			</div>
 			<nav class="navegacao">
 				<ul>
-					<li><a href="">Início</a></li>
-					<li><a href="">Cardápio</a></li>
-					<li><a href="">Promoções</a></li>
-					<li><a href="">Sobre</a></li>
-					<li><a href="">Contato</a></li>
-					<button>Peça Agora</button>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="#cardapio">Cardápio</a></li>
+					<li><a href="#promocoes">Promoções</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="pages/contato.html">Contato</a></li>
+					<li><button>Peça Agora</button></li>
 				</ul>
 			</nav>
 		</header>
@@ -40,7 +44,7 @@
 			<h1>O sabor de sempre, do jeitinho que você gosta.</h1>
 			<p>Entrega rápida e ingredientes frescos todos os dias.</p>
 			<button class="botao">Fazer Pedido</button>
-			<section class="promocoes">
+			<section class="promocoes" id="promocoes">
 				<h2>Promoções</h2>
 				<article>
 					<h3>Pizza + Refri</h3>
@@ -50,7 +54,7 @@
 					</div>
 				</article>
 			</section>
-			<section class="cardapio">
+			<section class="cardapio" id="cardapio">
 				<h2>Cardápio</h2>
 				<article>
 					<img src="assets/img/margherita.png" alt="Pizza Margherita" />
@@ -71,7 +75,7 @@
 				<article>
 					<img src="assets/img/mussarela.png" alt="Pizza Mussarela" />
 					<div class="cardapio-pizza-info">
-						<h3>Margherita</h3>
+						<h3>Mussarela</h3>
 						<p>Molho, mussarela, presunto, azeitonas e orégano</p>
 						<p class="preco">R$ 38,90</p>
 					</div>
@@ -96,11 +100,31 @@
 					</button>
 				</blockquote>
 			</section>
-            <section class="sobre">
-                <h2>Sobre Nós</h2>
-                <p>Somos uma pizzaria local dedicada a entregar sabores autênticos direto na sua casa. Prezamos pela qualidade artesanal e pelo atendimento próximo, tornando cada entrega especial para você.</p>
-            </section>
+			<section class="sobre" id="sobre">
+				<h2>Sobre Nós</h2>
+				<p>
+					Somos uma pizzaria local dedicada a entregar sabores autênticos direto
+					na sua casa. Prezamos pela qualidade artesanal e pelo atendimento
+					próximo, tornando cada entrega especial para você.
+				</p>
+			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<address>
+				<div>
+					<h3>Contatos</h3>
+					<p>(61) 99123-4567</p>
+					<p>(61) 3456-7890</p>
+				</div>
+				<div>
+					<h3>Endereço</h3>
+					<p>Rua das Oliveiras,</p>
+                    <p>123 - Brasília, DF</p>
+				</div>
+			</address>
+			<h4>Sabor e tradição até você.</h4>
+			<div><i class="bxl bx-whatsapp"></i><i class="bxl bx-instagram"></i></div>
+            <p>&copy; 2025 Pizzaria Barone - Todos direitos reservados.</p>
+		</footer>
 	</body>
 </html>
