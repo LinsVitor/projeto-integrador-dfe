@@ -1,8 +1,9 @@
 header {
 	width: 100%;
 	font-family: var(--fonte-texto);
-	font-size: var(--fonte-size-320-425px);
+	font-size: var(--fonte-size);
 	color: var(--cor-texto-fundo-claro);
+	margin-bottom: var(--margin-secoes);
 }
 .topo {
 	display: flex;

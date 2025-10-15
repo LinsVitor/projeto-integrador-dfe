@@ -16,7 +16,8 @@
 	--fonte-texto: "Sofia Sans Condesed", sans-serif;
 	--fonte-destaque: "Oswald", sans-serif;
     --fonte-especial: "Sofia", sans-serif;
-    --fonte-size-320-425px: clamp(1rem, calc(0.94rem + 0.31vw), 1.125rem);
+    --fonte-size: clamp(0.875rem, calc(0.94rem + 0.31vw), 1.125rem);
+    --fonte-size-titulo: clamp(1.25rem, 5vw, 1.25rem);
 	/* Variáveis util */
 	--margin-secoes: 1.875rem; /* 30px */
 	--margin-principal: 0.5rem; /* 8px */
